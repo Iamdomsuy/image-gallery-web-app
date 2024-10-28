@@ -29,7 +29,7 @@ async function fetchSearchImg() {
             // Display an error message if no images are found
             errorResult.innerHTML = 
             `<section class="error">
-                <img src="/assets/error.png" alt="">
+                <img src="error.png" alt="">
                 <p class="error__message">We're sorry, but the image you're looking for cannot be found. Please check the URL or try refreshing the page.</p>
             </section>`;
         } else { 
